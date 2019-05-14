@@ -1,0 +1,31 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'loginFacebook' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for loginFacebook
+
+  pod 'FBSDKLoginKit'
+  pod 'FBSDKShareKit'
+
+  target 'loginFacebookTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'loginFacebook-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for loginFacebook-tvOS
+
+  target 'loginFacebook-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
